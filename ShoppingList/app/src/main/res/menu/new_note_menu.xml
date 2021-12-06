@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/title_color"
+        android:id="@+id/color"
+        android:icon="@drawable/ic_color"
+        app:showAsAction="ifRoom" />
+    <item
+        android:title="Bold"
+        android:id="@+id/bold"
+        android:icon="@drawable/ic_bold"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/ic_save_note"
+        android:title="Save"
+        app:showAsAction="ifRoom" />
+
+
+
+
+</menu>
